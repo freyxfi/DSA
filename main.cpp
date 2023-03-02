@@ -4,10 +4,16 @@ using namespace std;
 
 int main(){
 
-  cout << "Hello\n";
-  cout << "Linux/GNU(x64_86)"<< endl;
-  cout << "I\nLove\nLinux\n";
+  int a;
+  int b;
+  int sum;
 
+  cout << "Enter the first number\n";
+  cin >> a;
+  cout << "Enter the scond Number\n";
+  cin >> b;
+  sum = a+b;
+  cout << "The sum of 2 numbers are :-" << sum << endl;;
 
   return 0;
 }
