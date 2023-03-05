@@ -3,23 +3,27 @@
 using namespace std;
 
 int main(){
-  
-  int a=4,b=3,c=5,d=34,e=10;
-  int f=34,g=32,h=22,i=1,j=32;
-  int sum,sub,div,multi,remind;
-  // + , - , / , *
-  cout << a<<b<<c<<d<<e<<f<<g<<h<<i<<j << endl;
-  
-  sum = a+b;
-  
-  int sum1 = b+c, sum2 = d+j;
-  
-  cout << "sum is := " << sum << endl;
-  cout << "sim1 is :- " << sum1 << " sum2 is :- "<< sum2 << endl;
-  div = (h/a)/(j/c);
-  multi = (g*a*f)*(a*i);
-  remind = j%g;
 
-  cout << div << endl << multi << endl << remind << endl;
+  int a,b,c,d;
+
+  if(0){
+    cout << "Frey is Awesome !!!" << endl;
+  }
+  if(3==3){
+    cout << "This is cool" << endl;
+  }
+  if(0){
+    cout << "Frey Love C++" << endl;
+  }
+  if (0){
+    cout << "Frey Love Linux" << endl;
+  }
+  if (1) {
+    cout << "ERROR 404 GF NOT FOUND !!!" << endl;
+  }
+  else{
+    cout << "Who is Frey ???" << endl;
+  }
+
   return 0;
 }
